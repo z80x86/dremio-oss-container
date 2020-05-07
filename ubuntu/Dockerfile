@@ -8,7 +8,7 @@ RUN apt-get update && \
     nodejs \
     npm
    
-RUN git clone https://github.com/dremio/dremio-oss.git dremio
+RUN git clone https://github.com/ZeoX06/dremio-oss.git dremio
 
 WORKDIR /dremio
 
